@@ -1,0 +1,2307 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16262 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/PC/Documents/Video Game Art Design/Scripting 3/RPG-RL-New/RPG-RLN/RPG-RL-New
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61265
+Successfully changed project path to: C:/Users/PC/Documents/Video Game Art Design/Scripting 3/RPG-RL-New/RPG-RLN/RPG-RL-New
+C:/Users/PC/Documents/Video Game Art Design/Scripting 3/RPG-RL-New/RPG-RLN/RPG-RL-New
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24400] Host "[IP] 192.168.2.31 [Port] 0 [Flags] 2 [Guid] 1229665701 [EditorId] 1229665701 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-96KGGT7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24400] Host "[IP] 192.168.2.31 [Port] 0 [Flags] 2 [Guid] 1229665701 [EditorId] 1229665701 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-96KGGT7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 148.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Documents/Video Game Art Design/Scripting 3/RPG-RL-New/RPG-RLN/RPG-RL-New/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013886 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 129.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022406 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 165.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2598ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2193ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (1407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (889ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.4 KB). Loaded Objects now: 4511.
+Memory consumption went from 152.2 MB to 151.9 MB.
+Total: 6.600900 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.376300 ms MarkObjects: 5.446600 ms  DeleteObjects: 0.381300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2325534.478110 seconds.
+  path: Assets/Tiles/Water.prefab
+  artifactKey: Guid(2b7dd8e6888e3ce4f93dc1c87babaeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Water.prefab using Guid(2b7dd8e6888e3ce4f93dc1c87babaeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac26440db9bf9fdd38b116edde369d7a') in 0.219182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 335.321128 seconds.
+  path: Assets/Tiles/cloud_tileset_1 1.asset
+  artifactKey: Guid(ea88a9c042bd9f94e8867e9109ca3e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_1 1.asset using Guid(ea88a9c042bd9f94e8867e9109ca3e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f25f91894f2fe3d10c418500fc0f51') in 0.150239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Tiles/cloud_tileset_34 1.asset
+  artifactKey: Guid(5bc2f645da5ff984192332ee6c87689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_34 1.asset using Guid(5bc2f645da5ff984192332ee6c87689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ed1de8b97ff60407c477755c3ef966') in 0.049884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tiles/cloud_tileset_38 1.asset
+  artifactKey: Guid(85db39e8a5fc26b47899a3fe2ee853bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_38 1.asset using Guid(85db39e8a5fc26b47899a3fe2ee853bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8256ce5943c0155a8f0eef6c927d0e3b') in 0.067392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tiles/cloud_tileset_31 1.asset
+  artifactKey: Guid(498316a31bb82ab439e843b78c9d11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_31 1.asset using Guid(498316a31bb82ab439e843b78c9d11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a144e12f05282929a23c2dff1141470') in 0.159044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Tiles/cloud_tileset_11 1.asset
+  artifactKey: Guid(4a70b522fc8580a4d84c830ee69f40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_11 1.asset using Guid(4a70b522fc8580a4d84c830ee69f40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b889bbc63eebf1774c4d4bc19923cf') in 0.082776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Tiles/cloud_tileset_15 1.asset
+  artifactKey: Guid(e6ca54a4522748148a19e373cf8f74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_15 1.asset using Guid(e6ca54a4522748148a19e373cf8f74bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a457843d39286b292880b72f9d34778') in 0.077034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Tiles/cloud_tileset_22 1.asset
+  artifactKey: Guid(5e3690e2ff9fc37428da88a6d23f8133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_22 1.asset using Guid(5e3690e2ff9fc37428da88a6d23f8133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10d5a447d266d3cac525d93f011c438') in 0.037073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Tiles/cloud_tileset_25 1.asset
+  artifactKey: Guid(2760b743a660c7e45a87c906b2a0162c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_25 1.asset using Guid(2760b743a660c7e45a87c906b2a0162c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b221afb978cffb0ba848f71b3aa7f2f') in 0.034885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/cloud_tileset_18 1.asset
+  artifactKey: Guid(1193a3c0d44fc834fa1b566e774ff3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_18 1.asset using Guid(1193a3c0d44fc834fa1b566e774ff3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0948aff27fb96257e0287f93a89edf28') in 0.035199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/cloud_tileset_37 1.asset
+  artifactKey: Guid(43b43e65156baa8429d947b2fb493408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_37 1.asset using Guid(43b43e65156baa8429d947b2fb493408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dbe68b302bcb7c59bb12be9a9466c8') in 0.025089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/cloud_tileset_13 1.asset
+  artifactKey: Guid(6dcf8cfb4cfa7db41aea6be647e9e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_13 1.asset using Guid(6dcf8cfb4cfa7db41aea6be647e9e888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6bb3731d36c13f45ba9a255ede71c2') in 0.031519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/cloud_tileset_32 1.asset
+  artifactKey: Guid(fcd66ff606528af40b44049555c2e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_32 1.asset using Guid(fcd66ff606528af40b44049555c2e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3920cbe122436e0b3e55a7ae5cc62793') in 0.027970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/cloud_tileset_7 1.asset
+  artifactKey: Guid(06b137823451ce947b0c96c8855ca0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_7 1.asset using Guid(06b137823451ce947b0c96c8855ca0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23e56eadf33f70fe0b668f7171f4dad') in 0.029875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_16 1.asset
+  artifactKey: Guid(4e7d628597ce4ee419fb237f73342700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_16 1.asset using Guid(4e7d628597ce4ee419fb237f73342700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c3b819c58005364043b75b8545b3d8') in 0.022490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_2 1.asset
+  artifactKey: Guid(b74d2b5a0aa15864f95c1146f45a6a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_2 1.asset using Guid(b74d2b5a0aa15864f95c1146f45a6a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34490c61b6f4b6e5ca43b6d344b390d') in 0.022623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/cloud_tileset_4 1.asset
+  artifactKey: Guid(6391b10d8b1189642891563a5be62cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_4 1.asset using Guid(6391b10d8b1189642891563a5be62cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c066761e2efbef11f3259d59f169da') in 0.062419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tiles/cloud_tileset_17 1.asset
+  artifactKey: Guid(e528c09bf0aa6394a970ddd2fb586648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_17 1.asset using Guid(e528c09bf0aa6394a970ddd2fb586648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4579b6430b4f651dc0aaefe02bb9a3b2') in 0.054728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/cloud_tileset_3 1.asset
+  artifactKey: Guid(48eb77a5cffc19d47b2cdae06f78d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_3 1.asset using Guid(48eb77a5cffc19d47b2cdae06f78d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c2c93e846a2710de41bff37616599b') in 0.054526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Tiles/cloud_tileset_27 1.asset
+  artifactKey: Guid(21a41400c8a475f4d881f3a9f8e0d669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_27 1.asset using Guid(21a41400c8a475f4d881f3a9f8e0d669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099d00156bbdb261a9cc677dc901e6f5') in 0.080937 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015479 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.647 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2649ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2180ms)
+			LoadAssemblies (263ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (1186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.7 KB). Loaded Objects now: 4524.
+Memory consumption went from 156.2 MB to 156.0 MB.
+Total: 5.570900 ms (FindLiveObjects: 0.333000 ms CreateObjectMapping: 0.247500 ms MarkObjects: 4.779300 ms  DeleteObjects: 0.209900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018515 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2600ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2138ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (838ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.8 KB). Loaded Objects now: 4527.
+Memory consumption went from 156.2 MB to 156.0 MB.
+Total: 6.127000 ms (FindLiveObjects: 0.353600 ms CreateObjectMapping: 0.353200 ms MarkObjects: 5.163400 ms  DeleteObjects: 0.255300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014678 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.560 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2561ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2060ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (532ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1131ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (813ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.6 KB). Loaded Objects now: 4530.
+Memory consumption went from 156.2 MB to 156.0 MB.
+Total: 4.703100 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.241500 ms MarkObjects: 3.930000 ms  DeleteObjects: 0.185300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2446ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1941ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (469ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1111ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (830ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.5 KB). Loaded Objects now: 4533.
+Memory consumption went from 156.2 MB to 156.0 MB.
+Total: 11.451500 ms (FindLiveObjects: 0.496300 ms CreateObjectMapping: 0.578500 ms MarkObjects: 10.044000 ms  DeleteObjects: 0.330600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3191.660233 seconds.
+  path: Assets/Tiles/cloud_tileset_40 1.asset
+  artifactKey: Guid(98f9bdd0e7009d244afe88e2a916dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_40 1.asset using Guid(98f9bdd0e7009d244afe88e2a916dc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d76f1680b6c6e94055ef45a8b158ec1') in 0.098648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/cloud_tileset_60 1.asset
+  artifactKey: Guid(a2c45ba128ff46141aef1a9754e81e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_60 1.asset using Guid(a2c45ba128ff46141aef1a9754e81e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad831fb9c3593f259c8e2274b0e194c6') in 0.022866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/cloud_tileset_46 1.asset
+  artifactKey: Guid(cc8cd7aeb1e6f38408bf9bd728341490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_46 1.asset using Guid(cc8cd7aeb1e6f38408bf9bd728341490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d46e6b9cb0b7fa55eb596de08aafb0e') in 0.020853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_45 1.asset
+  artifactKey: Guid(9ac87bccbf6a7f74d9c015bf62fa691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_45 1.asset using Guid(9ac87bccbf6a7f74d9c015bf62fa691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db026960c2011a70d488f1152b1e4148') in 0.018022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/cloud_tileset_74 1.asset
+  artifactKey: Guid(effeebe69b74923499a5e5982207db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_74 1.asset using Guid(effeebe69b74923499a5e5982207db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3de6884ba38c3c9ddfa2c1339222ea') in 0.018619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/cloud_tileset_47 1.asset
+  artifactKey: Guid(68978ec45fa6023459f462d4471cac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_47 1.asset using Guid(68978ec45fa6023459f462d4471cac47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a439b4e6cc373f5e9fbc7805c2a30b97') in 0.016470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_64 1.asset
+  artifactKey: Guid(f0b52e564869b0f42ac480dbe76e2f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_64 1.asset using Guid(f0b52e564869b0f42ac480dbe76e2f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986d28afa0324a4c9519d6fb823757a3') in 0.017892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/cloud_tileset_65 1.asset
+  artifactKey: Guid(f90be7efcce8acd4a803dde9f4b83126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_65 1.asset using Guid(f90be7efcce8acd4a803dde9f4b83126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cc590858f1c0509d58e10a66f2f15b') in 0.017173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_51 1.asset
+  artifactKey: Guid(348908bf55536c54189e5b0b36ffb95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_51 1.asset using Guid(348908bf55536c54189e5b0b36ffb95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a6fd68a8497c07cb4d1920f9074191') in 0.019370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/cloud_tileset_54 1.asset
+  artifactKey: Guid(03914a71a0373a14e85faa3a09a393c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_54 1.asset using Guid(03914a71a0373a14e85faa3a09a393c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d7338da8a2fcff3c4d8018bc0d05a0') in 0.020235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/cloud_tileset_52 1.asset
+  artifactKey: Guid(f0c852cab51ebe74c950f4329215d2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_52 1.asset using Guid(f0c852cab51ebe74c950f4329215d2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886c8b3767aa75b777d5f1c236c42462') in 0.019787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/cloud_tileset_75 1.asset
+  artifactKey: Guid(ee6a97aa220e5e7449c20396d109c66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_75 1.asset using Guid(ee6a97aa220e5e7449c20396d109c66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294f47cdce8cf672b014da0703d0d393') in 0.026774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_63 1.asset
+  artifactKey: Guid(2def4960914ef9e4ba323c4e1464b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_63 1.asset using Guid(2def4960914ef9e4ba323c4e1464b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451e91f7cf5c7ff90efe9ec3707b0cab') in 0.017026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/cloud_tileset_70 1.asset
+  artifactKey: Guid(55b329895b57c3e4f93c3f649af98693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_70 1.asset using Guid(55b329895b57c3e4f93c3f649af98693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef8ce6f48393d14d24f0da4ab88c1d4') in 0.017509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_49 1.asset
+  artifactKey: Guid(e8c65562691506041bd7fc2268f6df4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_49 1.asset using Guid(e8c65562691506041bd7fc2268f6df4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcdfdf06880eebe9cd192311579ceb4') in 0.018344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_84 1.asset
+  artifactKey: Guid(29995f29a77327241afab68bbe924590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_84 1.asset using Guid(29995f29a77327241afab68bbe924590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1d1691ecf2e2dd0a7b2766183f2b46') in 0.018254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_92 1.asset
+  artifactKey: Guid(f7d26ab48b21a2740a3012cf004286a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_92 1.asset using Guid(f7d26ab48b21a2740a3012cf004286a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe6a3f90e59844c869c5379be561f9e') in 0.018056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_106 1.asset
+  artifactKey: Guid(162606f8851640f4a8b489bf80db18f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_106 1.asset using Guid(162606f8851640f4a8b489bf80db18f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5b9d978c478c6efe99d7fb1c518a77') in 0.017381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_107 1.asset
+  artifactKey: Guid(ea38a554bf65aa34f885193ed22987a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_107 1.asset using Guid(ea38a554bf65aa34f885193ed22987a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51de99dbeb2143ccd79a6fe983dd854') in 0.018484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_90 1.asset
+  artifactKey: Guid(ea2923b0f3bbf864fbf677754da03580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_90 1.asset using Guid(ea2923b0f3bbf864fbf677754da03580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cae2754bb98438c67bd7243e7f1fb1') in 0.016230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/cloud_tileset_86 1.asset
+  artifactKey: Guid(ac0526d5126b750409e9a7e87347bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_86 1.asset using Guid(ac0526d5126b750409e9a7e87347bcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb37406af2146f24c9df0ff6abe06e75') in 0.017770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/cloud_tileset_109 1.asset
+  artifactKey: Guid(809a9f2e54de4ac48b6cd10090004041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_109 1.asset using Guid(809a9f2e54de4ac48b6cd10090004041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0927e121bca45fac7a58aafc2b53d28') in 0.016541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_87 1.asset
+  artifactKey: Guid(588bc8eb63786344d97307a89153518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_87 1.asset using Guid(588bc8eb63786344d97307a89153518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead2a891534e71452d870b65b605269d') in 0.017370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_99 1.asset
+  artifactKey: Guid(55e6ea8f98734db479c265c1b7620f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_99 1.asset using Guid(55e6ea8f98734db479c265c1b7620f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5938d86c0819567908f44b5dbe8886e') in 0.021607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_108 1.asset
+  artifactKey: Guid(6903a58692b19404a9f6a235690b4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_108 1.asset using Guid(6903a58692b19404a9f6a235690b4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d03e5e886b4fd1197d7ed27956eff64') in 0.017763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_95 1.asset
+  artifactKey: Guid(277a15741421b8442b6ff15e0b7d5ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_95 1.asset using Guid(277a15741421b8442b6ff15e0b7d5ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e4ca6421f32a753b3c852298096478') in 0.018418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/cloud_tileset_97 1.asset
+  artifactKey: Guid(d17622989adcaf54193e90d651335a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_97 1.asset using Guid(d17622989adcaf54193e90d651335a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d75fcf25299af300fd5dac1a8aeb81') in 0.021299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/cloud_tileset_82 1.asset
+  artifactKey: Guid(7987e41dbbb6c184091d54ada3bc7ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_82 1.asset using Guid(7987e41dbbb6c184091d54ada3bc7ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e841fc543607e36002f1f37b4afa76') in 0.018842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_85 1.asset
+  artifactKey: Guid(a57b9d30c28a0aa41bbfb885c6f83967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_85 1.asset using Guid(a57b9d30c28a0aa41bbfb885c6f83967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e64e1aa63d647d65304c441a50a8d6') in 0.019316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/cloud_tileset_100 1.asset
+  artifactKey: Guid(4dff5b72d9c9cbf4e80cbe7796796ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_100 1.asset using Guid(4dff5b72d9c9cbf4e80cbe7796796ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73f5a3025a1e32cc803429bedc316a4') in 0.018135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_76 1.asset
+  artifactKey: Guid(af5bebc89012a5944af28bf446b8e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_76 1.asset using Guid(af5bebc89012a5944af28bf446b8e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aa2e462525f95370b0262ea17dd7b8') in 0.018897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_67 1.asset
+  artifactKey: Guid(56b1fb5d346451243ab9b60fde161d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_67 1.asset using Guid(56b1fb5d346451243ab9b60fde161d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1831b0e62f7d5fc23d42c620236959') in 0.022558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Tiles/cloud_tileset_110 1.asset
+  artifactKey: Guid(beb2b54ae6bfb994dbc772171d588a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_110 1.asset using Guid(beb2b54ae6bfb994dbc772171d588a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e73e80d8f62b1c7c8ee8a2ac42b7d99') in 0.023672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_55 1.asset
+  artifactKey: Guid(c3c0df18daf2d4a4aa5fe4c4f52459a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_55 1.asset using Guid(c3c0df18daf2d4a4aa5fe4c4f52459a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5835e1364d0ceaa412dfcac96cf555') in 0.020602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_81 1.asset
+  artifactKey: Guid(bbbb9cc7333ef024a95596b2cc9d1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_81 1.asset using Guid(bbbb9cc7333ef024a95596b2cc9d1c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6165b2d7a43d0c39adac886589945ac') in 0.019506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_71 1.asset
+  artifactKey: Guid(ef725bd807697f64ba3c7e0bab566715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_71 1.asset using Guid(ef725bd807697f64ba3c7e0bab566715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b105fd9ab61343b81f1adc3d5a13963c') in 0.020732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.138471 seconds.
+  path: Assets/Tiles/cloud_tileset_112 1.asset
+  artifactKey: Guid(05164ef1132724b469e799311412fdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_112 1.asset using Guid(05164ef1132724b469e799311412fdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db6616bd094cf664ec25abe6f6de6ad') in 0.018183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_122 1.asset
+  artifactKey: Guid(3f91399d87e714f40a03ca4de1fe11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_122 1.asset using Guid(3f91399d87e714f40a03ca4de1fe11e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b33a9e90276ceedc22109ce418350d6') in 0.018885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_128 1.asset
+  artifactKey: Guid(d0d6326b9536f1d4381369375b343bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_128 1.asset using Guid(d0d6326b9536f1d4381369375b343bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0366761c042c738b6a6eb347812f097e') in 0.017479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Tiles/cloud_tileset_134 1.asset
+  artifactKey: Guid(e378998ea3bf3cd40b135440c004bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_134 1.asset using Guid(e378998ea3bf3cd40b135440c004bc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7edd1088d690a8026541ca1d392fee') in 0.018697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_133 1.asset
+  artifactKey: Guid(82f634b050f6b0c4ea4c09c10aa0862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_133 1.asset using Guid(82f634b050f6b0c4ea4c09c10aa0862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bc4af6909b6452147fcd8e5825a163') in 0.017183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_159 1.asset
+  artifactKey: Guid(bcbcc104891d71b48839655ea88f801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_159 1.asset using Guid(bcbcc104891d71b48839655ea88f801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c8706a36b15c3e309b298a23c49e31') in 0.018979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_129 1.asset
+  artifactKey: Guid(cbeb1236972c52640b061f788814201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_129 1.asset using Guid(cbeb1236972c52640b061f788814201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effdc6f508adefc2a13d03c2e6cc91d4') in 0.015149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_166 1.asset
+  artifactKey: Guid(a7b63bf1a7f66fb4c9ef8a0f29a98444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_166 1.asset using Guid(a7b63bf1a7f66fb4c9ef8a0f29a98444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d5ce316535bb84c202c71f50d8fbea') in 0.017165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_150 1.asset
+  artifactKey: Guid(4f36e4c8ee4b70d4686e0ad0da3f2568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_150 1.asset using Guid(4f36e4c8ee4b70d4686e0ad0da3f2568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc4b43f9fabc518db0e735b1e52ff74') in 0.017180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_135 1.asset
+  artifactKey: Guid(c5315aad4b6237a42a89ed1d186d4889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_135 1.asset using Guid(c5315aad4b6237a42a89ed1d186d4889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dbb97549a2028359bbca38da5461d7') in 0.016714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_153 1.asset
+  artifactKey: Guid(2ca920ccfb95cbc469f4a0d4ea7092a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_153 1.asset using Guid(2ca920ccfb95cbc469f4a0d4ea7092a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a656f24714b92d88a3a68c3bdcae3bc') in 0.017154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/cloud_tileset_142 1.asset
+  artifactKey: Guid(6f01eaf5ecd87aa4b90a656b9bf338b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_142 1.asset using Guid(6f01eaf5ecd87aa4b90a656b9bf338b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0aebc7a97b0fe94e08faef209d6998') in 0.017626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_124 1.asset
+  artifactKey: Guid(fff77f2fe6f7c224f9feb153b8d33383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_124 1.asset using Guid(fff77f2fe6f7c224f9feb153b8d33383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40abb11be8d1a16ce7f990191c81c875') in 0.016983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Tiles/cloud_tileset_157 1.asset
+  artifactKey: Guid(ca67cafcbd9bb424f82bbafe170f9deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_157 1.asset using Guid(ca67cafcbd9bb424f82bbafe170f9deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5af56b0a2c65379ddc9f1d436e3d3c2') in 0.016401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/cloud_tileset_168 1.asset
+  artifactKey: Guid(3e8d47e6716117649b574f7371add3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_168 1.asset using Guid(3e8d47e6716117649b574f7371add3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd039c0bad9c3926a988e1ba7d1bde3cd') in 0.020851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_174 1.asset
+  artifactKey: Guid(49da193720ee9bd42a8f5d0d59a75c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_174 1.asset using Guid(49da193720ee9bd42a8f5d0d59a75c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f997589736df68e5d34e1dd36d687102') in 0.018228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_178 1.asset
+  artifactKey: Guid(5af7bd5746f9a2846ae175724def61de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_178 1.asset using Guid(5af7bd5746f9a2846ae175724def61de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe060358c72b20cb6847a057e5abb4d') in 0.019020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_206 1.asset
+  artifactKey: Guid(80e56f5b29343cb42945c0f1fffff329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_206 1.asset using Guid(80e56f5b29343cb42945c0f1fffff329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9531bda213f85c550c5c31fd4e93dd76') in 0.019932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/cloud_tileset_187 1.asset
+  artifactKey: Guid(b5facaba5f3803f4f9ff2c4fc123a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_187 1.asset using Guid(b5facaba5f3803f4f9ff2c4fc123a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be8b40d877a0c2a80f1384eaab95f0') in 0.018546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/cloud_tileset_223 1.asset
+  artifactKey: Guid(7606bc1be542bda4786cdf9d69acf7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_223 1.asset using Guid(7606bc1be542bda4786cdf9d69acf7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ecb3513ea29302eed8afcb505ef6ea') in 0.018979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Tiles/cloud_tileset_241 1.asset
+  artifactKey: Guid(213e69a1fd25e084d8378cad77fa41de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_241 1.asset using Guid(213e69a1fd25e084d8378cad77fa41de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bb60f5f5fcfa3e7cdcd5ba3506c191') in 0.020647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_202 1.asset
+  artifactKey: Guid(a27610309514c7e4f8173452cb955a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_202 1.asset using Guid(a27610309514c7e4f8173452cb955a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfcfe75468e8a4098de86872a17f628') in 0.020983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/cloud_tileset_215 1.asset
+  artifactKey: Guid(f755c6c9b23a63e4abe14948b6b586c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_215 1.asset using Guid(f755c6c9b23a63e4abe14948b6b586c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe4b7035bd83bc02920adb4c2bfecab') in 0.017070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_217 1.asset
+  artifactKey: Guid(911324782a49fae478247fe007696039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_217 1.asset using Guid(911324782a49fae478247fe007696039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c542cdd4a478eb58fd37775baa3257c') in 0.023659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_180 1.asset
+  artifactKey: Guid(51c77027acb760048a48893f043c6f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_180 1.asset using Guid(51c77027acb760048a48893f043c6f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c84cbc3ac0db6e55ad8595a150dcf43') in 0.019241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/cloud_tileset_185 1.asset
+  artifactKey: Guid(0902375e05826ba4988e862f6872f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_185 1.asset using Guid(0902375e05826ba4988e862f6872f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552f95a048100de06507c47025b2c9f8') in 0.023557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_115 1.asset
+  artifactKey: Guid(e17a7d2d39b0b9c418cb12814907744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_115 1.asset using Guid(e17a7d2d39b0b9c418cb12814907744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77ce5efbb2a3c6b834b8f806ecb105f') in 0.020321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/cloud_tileset_253 1.asset
+  artifactKey: Guid(668819499463afb4393228359eeb8a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_253 1.asset using Guid(668819499463afb4393228359eeb8a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c9f18067aebb9822fbafe27e5cd29') in 0.022452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_264 1.asset
+  artifactKey: Guid(61ea449858ac4dc469375b1fcf30f514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_264 1.asset using Guid(61ea449858ac4dc469375b1fcf30f514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22de110720ff46b9808e9ffb94baee') in 0.019813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_282 1.asset
+  artifactKey: Guid(6fe20ccbd8ae951498e7e02137cd89fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_282 1.asset using Guid(6fe20ccbd8ae951498e7e02137cd89fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e3001aa76b527b532335707775de23') in 0.020051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/cloud_tileset_302 1.asset
+  artifactKey: Guid(37d0f81b26f726b4bb9e62854bed8e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_302 1.asset using Guid(37d0f81b26f726b4bb9e62854bed8e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9c855f1b7c33d591b54c1fe1ec502e') in 0.018869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/cloud_tileset_307 1.asset
+  artifactKey: Guid(1d49ad9d9fb7fa149ad2f4d4e4241c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_307 1.asset using Guid(1d49ad9d9fb7fa149ad2f4d4e4241c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a554d11559bad7073b67589105e4771e') in 0.019216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_327 1.asset
+  artifactKey: Guid(f964c64e1958a594581e945197ae46a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_327 1.asset using Guid(f964c64e1958a594581e945197ae46a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e2625370edc98089b1aa879ad5f57d') in 0.021049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_323 1.asset
+  artifactKey: Guid(607e46515c4cc214e92509f8daec21c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_323 1.asset using Guid(607e46515c4cc214e92509f8daec21c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa2876385cb9cc0e28043a965ad7bc5') in 0.019511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_272 1.asset
+  artifactKey: Guid(63bc0ea9864225344a436ab6ffea8df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_272 1.asset using Guid(63bc0ea9864225344a436ab6ffea8df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b165cf52d2e0fbd46a13df8aacd05c4') in 0.019029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_308 1.asset
+  artifactKey: Guid(d143bb71d2257934f92476b69feb639a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_308 1.asset using Guid(d143bb71d2257934f92476b69feb639a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde90d02f7812838138c20a20b02b962') in 0.020025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_301 1.asset
+  artifactKey: Guid(91b071cf791156545a331ac9185ca3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_301 1.asset using Guid(91b071cf791156545a331ac9185ca3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e5cd6c213430f3edd0b056c941acbc') in 0.019708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_243 1.asset
+  artifactKey: Guid(c65e751f231754840b8d9d16df8a654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_243 1.asset using Guid(c65e751f231754840b8d9d16df8a654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb283bbc45e492677680c4fbde73937') in 0.020436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/cloud_tileset_290 1.asset
+  artifactKey: Guid(e5baa9a88bff3904e949826e6354ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_290 1.asset using Guid(e5baa9a88bff3904e949826e6354ce16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f683d5df3c9e846fa8a79b5dc0a8f00') in 0.020316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_192 1.asset
+  artifactKey: Guid(899222e6b75085a45bbbe39c087532a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_192 1.asset using Guid(899222e6b75085a45bbbe39c087532a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c5e040df4ef1268ea2eaf8cadf491b') in 0.021283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_341 1.asset
+  artifactKey: Guid(1f6f20f0180d861438d1b07adc224414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_341 1.asset using Guid(1f6f20f0180d861438d1b07adc224414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cda1713f4862179327a192c11b1103') in 0.019865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/cloud_tileset_377 1.asset
+  artifactKey: Guid(2408754f6f042ef4cab31ce48933b013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_377 1.asset using Guid(2408754f6f042ef4cab31ce48933b013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd550c7b1384d83ea7c7a60fdad9ae557') in 0.019262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tiles/cloud_tileset_403 1.asset
+  artifactKey: Guid(047f1ed9b9b74254caa01fa3b534056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_403 1.asset using Guid(047f1ed9b9b74254caa01fa3b534056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bda73e2740d8bd308eeb2d13c04850') in 0.021254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_411 1.asset
+  artifactKey: Guid(8f55326cf0ea8944c8bcf20f10e826be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_411 1.asset using Guid(8f55326cf0ea8944c8bcf20f10e826be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81139777946a4c6cfcdc9bd5285b8d9') in 0.021977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_164 1.asset
+  artifactKey: Guid(38428800703e9f04fa843b765bb4f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_164 1.asset using Guid(38428800703e9f04fa843b765bb4f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba75c989dd2773c836b5ebdbdfd1f25a') in 0.021552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_430 1.asset
+  artifactKey: Guid(62e49bc99d5e93345901d7eb9f5768be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_430 1.asset using Guid(62e49bc99d5e93345901d7eb9f5768be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478d1426ff1f38919671d575f4a4110f') in 0.021962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_147 1.asset
+  artifactKey: Guid(04cafd34c855ce64580aeb21ec2db7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_147 1.asset using Guid(04cafd34c855ce64580aeb21ec2db7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb2cf4a84c14452ae18fd4a21bc5f31') in 0.021551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_414 1.asset
+  artifactKey: Guid(fb96da551a9d74d4eb714b944b1caa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_414 1.asset using Guid(fb96da551a9d74d4eb714b944b1caa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e018be96258d1d208b17b6f0624a9e7c') in 0.021665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Tiles/cloud_tileset_154 1.asset
+  artifactKey: Guid(c74256ee843ede0469da5f224c0e4c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_154 1.asset using Guid(c74256ee843ede0469da5f224c0e4c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edab4f96bef802b89f84fbc9a2bdfbc8') in 0.023368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/cloud_tileset_229 1.asset
+  artifactKey: Guid(567df6b02515e3340a3d40b7db70b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_229 1.asset using Guid(567df6b02515e3340a3d40b7db70b740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb86a46ec03a933275bc0f70b7ab0e0') in 0.025476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_269 1.asset
+  artifactKey: Guid(8092de32061bba84883bf1992b0d1cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_269 1.asset using Guid(8092de32061bba84883bf1992b0d1cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789a22a8cc75ea6ac85a4042fd50f927') in 0.019408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_437 1.asset
+  artifactKey: Guid(de875ae7ea2344243b1643c0aa4399ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_437 1.asset using Guid(de875ae7ea2344243b1643c0aa4399ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cafbfb5b3e987480782944b9be1f1c') in 0.022246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_446 1.asset
+  artifactKey: Guid(25928bbea6863684d9d5e22ec2c0e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_446 1.asset using Guid(25928bbea6863684d9d5e22ec2c0e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0648c3dec130eeb506c0861a9db6556') in 0.021367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/cloud_tileset_467 1.asset
+  artifactKey: Guid(1390171ac164e8b44942a783031be4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_467 1.asset using Guid(1390171ac164e8b44942a783031be4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae9605f48339af1764679ab42131e70') in 0.022734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Tiles/cloud_tileset_494 1.asset
+  artifactKey: Guid(6639001ea21c00f459c573071d9ff675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_494 1.asset using Guid(6639001ea21c00f459c573071d9ff675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67429e5ebc5091919cb452e39fe3edbf') in 0.020566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_482 1.asset
+  artifactKey: Guid(2936e148715bf1c4484333b3494c7d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_482 1.asset using Guid(2936e148715bf1c4484333b3494c7d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82451aba325179824f19c82a6afd5c4') in 0.019721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/cloud_tileset_514 1.asset
+  artifactKey: Guid(4659e3d182dd370418e61e024b1bcbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_514 1.asset using Guid(4659e3d182dd370418e61e024b1bcbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d4d7bdbe7b9187980cbb05c9af3a8e') in 0.020486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_515 1.asset
+  artifactKey: Guid(102ca02e910c40a49ac67b70c176601b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_515 1.asset using Guid(102ca02e910c40a49ac67b70c176601b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52b2d10c917d2dc87bca7c6338fc4bb') in 0.022754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/cloud_tileset_493 1.asset
+  artifactKey: Guid(21901907b0dd5934fa781f6af4bcbe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_493 1.asset using Guid(21901907b0dd5934fa781f6af4bcbe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ddebf35b7ebf51dad373beb135eee1') in 0.020420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_465 1.asset
+  artifactKey: Guid(7c0230654259b5a4fbc12910559379e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_465 1.asset using Guid(7c0230654259b5a4fbc12910559379e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370093964341f9e0c650328b2133f34f') in 0.021005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_394 1.asset
+  artifactKey: Guid(a3bb28297f1156b45a91557170a2d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_394 1.asset using Guid(a3bb28297f1156b45a91557170a2d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18c707210748897985bc129c71eeb54') in 0.023883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_401 1.asset
+  artifactKey: Guid(e2957b79d36da6247a42597288e40a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_401 1.asset using Guid(e2957b79d36da6247a42597288e40a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8187a7dc1994ae4b877826dbcf1ae933') in 0.021791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/cloud_tileset_424 1.asset
+  artifactKey: Guid(1fb4470629c9c084d9ba1f066aa4000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_424 1.asset using Guid(1fb4470629c9c084d9ba1f066aa4000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee3c634471a5381eda9d8b6039e345c') in 0.021350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_165 1.asset
+  artifactKey: Guid(8c8a69d813edd3b4ea8e25f4435ef962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_165 1.asset using Guid(8c8a69d813edd3b4ea8e25f4435ef962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf80c2536ab62b9d2429817f109cef9') in 0.018011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/cloud_tileset_219 1.asset
+  artifactKey: Guid(30d0692dd3c45d64b84dee20354a9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_219 1.asset using Guid(30d0692dd3c45d64b84dee20354a9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55779ab9f28de7df8bc3ceea1b12b1b8') in 0.018900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_455 1.asset
+  artifactKey: Guid(0c3ed7e115714164ca39f675830d4576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_455 1.asset using Guid(0c3ed7e115714164ca39f675830d4576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9cf07413e651fc250b77917b46dec1') in 0.020898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_294 1.asset
+  artifactKey: Guid(1ecb168a67451a3489500715f920b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_294 1.asset using Guid(1ecb168a67451a3489500715f920b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fb1277c23fa6f489bc9a881e53d6de') in 0.018054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_406 1.asset
+  artifactKey: Guid(c2f27e6874d33624783193356ec9741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_406 1.asset using Guid(c2f27e6874d33624783193356ec9741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ae5cf67da93bed87d72e390c63ef81') in 0.019575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_464 1.asset
+  artifactKey: Guid(deba4542c6ab3fa46a5b545b1c451990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_464 1.asset using Guid(deba4542c6ab3fa46a5b545b1c451990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f551607f7e5b293f15f615dcb8d9b9') in 0.018228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tiles/cloud_tileset_277 1.asset
+  artifactKey: Guid(05f2a42bb2612ec4c9d01cb0a1780775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_277 1.asset using Guid(05f2a42bb2612ec4c9d01cb0a1780775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04f6831b95aee69d05d3ae6a88b2f0e') in 0.018391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/cloud_tileset_242 1.asset
+  artifactKey: Guid(f8da52844cba63d4eb1d495925eb4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_242 1.asset using Guid(f8da52844cba63d4eb1d495925eb4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da066421c2de9bebaac00add75a3be8') in 0.021147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_513 1.asset
+  artifactKey: Guid(b2be1437d028c014a97d39264fc8a1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_513 1.asset using Guid(b2be1437d028c014a97d39264fc8a1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d056b797c9313f9df34d24cd93695') in 0.020272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_183 1.asset
+  artifactKey: Guid(710250ddd49e8274f86197499b7b6ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_183 1.asset using Guid(710250ddd49e8274f86197499b7b6ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaf00d242e8bb8a51ebfe8eff3d419d') in 0.022549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/cloud_tileset_173 1.asset
+  artifactKey: Guid(51713bdadc430494da02a086ccef5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_173 1.asset using Guid(51713bdadc430494da02a086ccef5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2182511126a78b996522496279cecf') in 0.023225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_279 1.asset
+  artifactKey: Guid(4196a7391595e324ea6a0c8a7ed96382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_279 1.asset using Guid(4196a7391595e324ea6a0c8a7ed96382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48dbc53b42b474dd2e8cac7852a9d20') in 0.021556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_356 1.asset
+  artifactKey: Guid(627e7e0d9b303b14f944b6887bdc1e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_356 1.asset using Guid(627e7e0d9b303b14f944b6887bdc1e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d3bd17d2acee6cc0cf47ac5a47b457') in 0.022021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_201 1.asset
+  artifactKey: Guid(065352b24f066a24dac2378b54e5b926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_201 1.asset using Guid(065352b24f066a24dac2378b54e5b926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e97d0671c1c60a3389de4d69dac9e7c') in 0.021351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_399 1.asset
+  artifactKey: Guid(2dcd19c2e8b1ed9428324519be36aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_399 1.asset using Guid(2dcd19c2e8b1ed9428324519be36aa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f6e49cd830488f9c02726773d2afd5') in 0.019748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tiles/cloud_tileset_381 1.asset
+  artifactKey: Guid(208c7d8bdb8219d42916fd85125072a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_381 1.asset using Guid(208c7d8bdb8219d42916fd85125072a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79abff247aa061d0ecb680387742eeb8') in 0.023556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/cloud_tileset_469 1.asset
+  artifactKey: Guid(e22177d72af80c34da8e90cbbfbcba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_469 1.asset using Guid(e22177d72af80c34da8e90cbbfbcba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4539e6a1bc84c96d54077b156b60eba4') in 0.021912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_263 1.asset
+  artifactKey: Guid(8bbc4e1bd148dc6429aff3ba28656261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_263 1.asset using Guid(8bbc4e1bd148dc6429aff3ba28656261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8429d5533a4ad3fed9967d70b76a05') in 0.030424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/cloud_tileset_205 1.asset
+  artifactKey: Guid(b25f71c2ef723864e875cb24d5061d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_205 1.asset using Guid(b25f71c2ef723864e875cb24d5061d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff07ff339c02fcc6374f41d07e3e9c3') in 0.022561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/cloud_tileset_328 1.asset
+  artifactKey: Guid(0da2bed1e246e964a811384806b40ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_328 1.asset using Guid(0da2bed1e246e964a811384806b40ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea8afeba2b68e696a3345b77454fb8a') in 0.020907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/cloud_tileset_351 1.asset
+  artifactKey: Guid(0994603e2a6a39f4bb0ab030d8de8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_351 1.asset using Guid(0994603e2a6a39f4bb0ab030d8de8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf6037f0314813efa682f07feea22c8') in 0.021671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/cloud_tileset_244 1.asset
+  artifactKey: Guid(defeaf62e4abdc840ab9513cb37346b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_244 1.asset using Guid(defeaf62e4abdc840ab9513cb37346b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5267560c06940db5ef712731d1dd6c9') in 0.024934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_492 1.asset
+  artifactKey: Guid(3fe1c8ce2775f844e8ef9d4a6d656a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_492 1.asset using Guid(3fe1c8ce2775f844e8ef9d4a6d656a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e3f6d2de7a3ad497b562b66ea84b3f') in 0.020137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Tiles/cloud_tileset_393 1.asset
+  artifactKey: Guid(9773935837197c84a86045f226354ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_393 1.asset using Guid(9773935837197c84a86045f226354ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef3859d5ebf5f675dfcd79b076ec561') in 0.021464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_438 1.asset
+  artifactKey: Guid(d3670bbf1eedc814f8d7be62ddf0c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_438 1.asset using Guid(d3670bbf1eedc814f8d7be62ddf0c83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d9bc362c7da9987fc17660f0169641') in 0.024514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_211 1.asset
+  artifactKey: Guid(ec2f3ba44bcb82b45a10e13a713fb33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_211 1.asset using Guid(ec2f3ba44bcb82b45a10e13a713fb33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ad807c85ad33b641905dd700298059') in 0.023428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tiles/cloud_tileset_220 1.asset
+  artifactKey: Guid(809ba250a0faf764b8866e5ea67ba81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_220 1.asset using Guid(809ba250a0faf764b8866e5ea67ba81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4eced1d9bc4252c552b2e8b7673e3c') in 0.022765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_412 1.asset
+  artifactKey: Guid(05cb19ba776aad540b4c03b335833d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_412 1.asset using Guid(05cb19ba776aad540b4c03b335833d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a858f8e5376f3b399c518e555f94e841') in 0.022395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/cloud_tileset_329 1.asset
+  artifactKey: Guid(56b8ea95cdfb4ca45851abfaaf5c7d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_329 1.asset using Guid(56b8ea95cdfb4ca45851abfaaf5c7d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e82eafaa919d78e4305b95398b506a') in 0.018544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/cloud_tileset_501 1.asset
+  artifactKey: Guid(e16c649d7ed48b54986e249e07632a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_501 1.asset using Guid(e16c649d7ed48b54986e249e07632a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4881f267d22ce5e9345ed56a26eb5d') in 0.019505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_416 1.asset
+  artifactKey: Guid(a05f911363371714db76b73b1e34772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_416 1.asset using Guid(a05f911363371714db76b73b1e34772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8833705898e768eb22d1f09955a126') in 0.019388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/cloud_tileset_352 1.asset
+  artifactKey: Guid(3350adcffaca403418d1e1d1366224bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_352 1.asset using Guid(3350adcffaca403418d1e1d1366224bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ed88d5e8eb4710ea232802f150b0de') in 0.019809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_431 1.asset
+  artifactKey: Guid(70235fa9e986f994cb0cd94acf21520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_431 1.asset using Guid(70235fa9e986f994cb0cd94acf21520d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2812e6e0d715b8df2cd087204606017') in 0.020500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_295 1.asset
+  artifactKey: Guid(6964956302e6fd14eb72dbc03d5113ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_295 1.asset using Guid(6964956302e6fd14eb72dbc03d5113ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da139f9fb888d27fc3757198bb46826a') in 0.019777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/cloud_tileset_485 1.asset
+  artifactKey: Guid(48f8be1e1cf324242afb9878324dceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_485 1.asset using Guid(48f8be1e1cf324242afb9878324dceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157397f668672e66548b965d6156d043') in 0.021621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiles/cloud_tileset_119 1.asset
+  artifactKey: Guid(e633a79b0f8c9684789fe19151d125dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_119 1.asset using Guid(e633a79b0f8c9684789fe19151d125dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a4af0f25572df886cd015893b6be1b') in 0.022618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/cloud_tileset_145 1.asset
+  artifactKey: Guid(0ae891c61854827489163c923b72741e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_145 1.asset using Guid(0ae891c61854827489163c923b72741e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d65807b84131e9f002bb36f503ac514') in 0.024095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_121 1.asset
+  artifactKey: Guid(cf8505ab28e5b6049b8c9a568ad2d7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_121 1.asset using Guid(cf8505ab28e5b6049b8c9a568ad2d7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8ff558aa752dd19b608dc8a7a08ed4') in 0.023639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_221 1.asset
+  artifactKey: Guid(14fa92f0fffcf5a43b5d1145f897c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_221 1.asset using Guid(14fa92f0fffcf5a43b5d1145f897c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba87fbaf957d7f610aebd7c274b41a2f') in 0.018101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_407 1.asset
+  artifactKey: Guid(370a13c661d0ebe4f8c4780894c70538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_407 1.asset using Guid(370a13c661d0ebe4f8c4780894c70538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd18450e84caf949713c00e85b828b42') in 0.017165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_317 1.asset
+  artifactKey: Guid(66406a89c2e5994499a0d8099372d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_317 1.asset using Guid(66406a89c2e5994499a0d8099372d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8187b81f1c0d11abcd507cf05f4c85b2') in 0.021328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Tiles/cloud_tileset_474 1.asset
+  artifactKey: Guid(f7da0582772166c4c91109aa45fa05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_474 1.asset using Guid(f7da0582772166c4c91109aa45fa05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd781b5c22cd914b0e03005d106f21832') in 0.025169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_286 1.asset
+  artifactKey: Guid(07c71ce6f1b29c44b9089564fe33c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_286 1.asset using Guid(07c71ce6f1b29c44b9089564fe33c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5743479b9570c21898bf6ab344f729c') in 0.024193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/cloud_tileset_387 1.asset
+  artifactKey: Guid(b8e5410e56139d6489dfd05d66c266fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_387 1.asset using Guid(b8e5410e56139d6489dfd05d66c266fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a22f86303336cd314bd17c993b66f8') in 0.019944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/cloud_tileset_504 1.asset
+  artifactKey: Guid(2264dac8b50fdb949a62e3b3aa47ce0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_504 1.asset using Guid(2264dac8b50fdb949a62e3b3aa47ce0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1dfba19f1dbe421927fd7f16534707') in 0.021057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_516 1.asset
+  artifactKey: Guid(95e8bdb444e68854ba305136a84ffcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_516 1.asset using Guid(95e8bdb444e68854ba305136a84ffcc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e6ab8479f467edab439ef71094ba06') in 0.023512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_378 1.asset
+  artifactKey: Guid(f3ec2aa78307f9b4ea5f381ba13d4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_378 1.asset using Guid(f3ec2aa78307f9b4ea5f381ba13d4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de3d56a0f4cbd1729dcb3faa9cf8371') in 0.019991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tiles/cloud_tileset_502 1.asset
+  artifactKey: Guid(c1bffdb81a15ef447b6a80130a80b760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_502 1.asset using Guid(c1bffdb81a15ef447b6a80130a80b760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105dc588b41935d326c1077ecf2162ed') in 0.020084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_417 1.asset
+  artifactKey: Guid(3e4d9c843adfd5347933b5e55ae4d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_417 1.asset using Guid(3e4d9c843adfd5347933b5e55ae4d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af171ac268772a7f0d5786dbdad94281') in 0.020717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_331 1.asset
+  artifactKey: Guid(e5add240099e80b43b97c1eceee719c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_331 1.asset using Guid(e5add240099e80b43b97c1eceee719c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775f254906ee7764b751c334649eb15c') in 0.019677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tiles/cloud_tileset_297 1.asset
+  artifactKey: Guid(0d6f5e1c8dd76c74abdeae0793f4fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_297 1.asset using Guid(0d6f5e1c8dd76c74abdeae0793f4fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbcd3dde049bf3c9785b102b31d3612') in 0.021767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_435 1.asset
+  artifactKey: Guid(c6c2b831ad1d2a74ea93409f1a9e2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_435 1.asset using Guid(c6c2b831ad1d2a74ea93409f1a9e2c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffeec1ee812c45e49fb18046106c3aa') in 0.023218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/cloud_tileset_420 1.asset
+  artifactKey: Guid(b8bd0b064be3f884f9c1d66a2131a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_420 1.asset using Guid(b8bd0b064be3f884f9c1d66a2131a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2babb8546f7f710de3c8af963e2295') in 0.019932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/cloud_tileset_350 1.asset
+  artifactKey: Guid(52882f94a738c0d4da6d6ee62d45c966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_350 1.asset using Guid(52882f94a738c0d4da6d6ee62d45c966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b87810eb5f66ff256eaedd997bb1cd3') in 0.021067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_508 1.asset
+  artifactKey: Guid(8a5cffd8a4416244680836251ad3e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_508 1.asset using Guid(8a5cffd8a4416244680836251ad3e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2db15835fbe437dfe46a2bfb51cbee') in 0.022182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_283 1.asset
+  artifactKey: Guid(8a326ff4a01ddfc4f905d970ac615e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_283 1.asset using Guid(8a326ff4a01ddfc4f905d970ac615e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0470c3052de04296132dc22a89cc9996') in 0.021148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/cloud_tileset_461 1.asset
+  artifactKey: Guid(a2b4df2e99dead843976bcd6f42752ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_461 1.asset using Guid(a2b4df2e99dead843976bcd6f42752ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65551fbd77eecbb10db4a839fc62cd7c') in 0.017952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_477 1.asset
+  artifactKey: Guid(eacba607153f36045a52bef212e868e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_477 1.asset using Guid(eacba607153f36045a52bef212e868e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7253422417215217027a69b5087e1c5') in 0.020778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_337 1.asset
+  artifactKey: Guid(03e501c0339845144814428a4894934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_337 1.asset using Guid(03e501c0339845144814428a4894934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd855afbbbdad8ad58c33382253d845') in 0.018506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/cloud_tileset_440 1.asset
+  artifactKey: Guid(b150bdf3754c09d47a3814be948723bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_440 1.asset using Guid(b150bdf3754c09d47a3814be948723bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52da5a1034aa33e5914d4db540ee21b') in 0.018668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/cloud_tileset_445 1.asset
+  artifactKey: Guid(5c61dec90ad573b4dbf7351b747cc5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_445 1.asset using Guid(5c61dec90ad573b4dbf7351b747cc5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065e63e6e6f230e25b37e41963e3ba2e') in 0.021351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_303 1.asset
+  artifactKey: Guid(c7bbf7b60f8b82f4dae956358d7564cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_303 1.asset using Guid(c7bbf7b60f8b82f4dae956358d7564cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba2b83aca56cad3f4c8437f64e8bbd3') in 0.021836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_376 1.asset
+  artifactKey: Guid(329d1d3e125e8a94bab6ce50699b8cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_376 1.asset using Guid(329d1d3e125e8a94bab6ce50699b8cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d294ccb45e81a8bfd2b1dbadef45c8') in 0.017218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/cloud_tileset_199 1.asset
+  artifactKey: Guid(a43ab889762d37a4fb95a878cfcdbf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_199 1.asset using Guid(a43ab889762d37a4fb95a878cfcdbf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11558623c48fd550284e59517005fc9') in 0.021524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/cloud_tileset_139 1.asset
+  artifactKey: Guid(ec01265d7c3c63d41af0e7ff597feb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_139 1.asset using Guid(ec01265d7c3c63d41af0e7ff597feb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45847d900bfca660779e2efc99b8cb16') in 0.019703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_207 1.asset
+  artifactKey: Guid(e267730e62dab8a4a8430d0303b4bcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_207 1.asset using Guid(e267730e62dab8a4a8430d0303b4bcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deda9807700f9cde93f7ee02b49ee711') in 0.022212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_214 1.asset
+  artifactKey: Guid(b515cda4be8f4ad4195622b7d493fff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_214 1.asset using Guid(b515cda4be8f4ad4195622b7d493fff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf07a1cc9401bea4730b2fdf466d1332') in 0.018034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_478 1.asset
+  artifactKey: Guid(ea45e96d759a1c447a70d617670d2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_478 1.asset using Guid(ea45e96d759a1c447a70d617670d2b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b370eb7c03e2841926615651b43894b') in 0.019383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_400 1.asset
+  artifactKey: Guid(daf6f59b9c5fd844abb469d96014e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_400 1.asset using Guid(daf6f59b9c5fd844abb469d96014e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc954c8b334db696d3af5716c6ea40fc') in 0.019252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/cloud_tileset_245 1.asset
+  artifactKey: Guid(bcb5718ccfcf6a746bdc71e3ec932f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_245 1.asset using Guid(bcb5718ccfcf6a746bdc71e3ec932f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e493b3ed0669a3661fdf134c5dac070') in 0.021191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_471 1.asset
+  artifactKey: Guid(8a9c34c8a3ab60f44a569a6e254b160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_471 1.asset using Guid(8a9c34c8a3ab60f44a569a6e254b160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557210563351d5b94f84478b2de131e3') in 0.018067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/cloud_tileset_176 1.asset
+  artifactKey: Guid(7c594c349d2295b49ad1198d2b3d8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_176 1.asset using Guid(7c594c349d2295b49ad1198d2b3d8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e04950e8c251661d2c99c7aae98a16') in 0.018548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/cloud_tileset_235 1.asset
+  artifactKey: Guid(e91b0320a4182c847bcdcccc24693c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_235 1.asset using Guid(e91b0320a4182c847bcdcccc24693c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3f50d30a4ae9eb0c3453156611ca8a') in 0.020561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_212 1.asset
+  artifactKey: Guid(77a03e3ea64edd64fa3d5680a8223131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_212 1.asset using Guid(77a03e3ea64edd64fa3d5680a8223131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f304082ad0b8435a3cbc609a0fdfb3c') in 0.019839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_265 1.asset
+  artifactKey: Guid(cac89bad95d9d8549a2f0a061365b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_265 1.asset using Guid(cac89bad95d9d8549a2f0a061365b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c680a93ec8aa4f6119d76aefd2f0ef7f') in 0.018548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Tiles/cloud_tileset_390 1.asset
+  artifactKey: Guid(da96c2c44d4993044a444c61de6f47ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_390 1.asset using Guid(da96c2c44d4993044a444c61de6f47ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e27fa2e4c79ea10f29f8a622206d7a8') in 0.020488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/cloud_tileset_336 1.asset
+  artifactKey: Guid(ee571c7042722054eb1832f4ed0c4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_336 1.asset using Guid(ee571c7042722054eb1832f4ed0c4786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dea82f29aef3c666da80ab56d68b32') in 0.021776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/cloud_tileset_193 1.asset
+  artifactKey: Guid(80caa47cdd322a5469561215a5333b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_193 1.asset using Guid(80caa47cdd322a5469561215a5333b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f74206979bd89e36746ec5222f6ea4') in 0.018799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_230 1.asset
+  artifactKey: Guid(716b5209b485b4342b4c48b53f830d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_230 1.asset using Guid(716b5209b485b4342b4c48b53f830d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b1288d304f18e10f6ed3209218dac1') in 0.023925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_340 1.asset
+  artifactKey: Guid(d5bb3d6aa09689d43b569eb48bb1db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_340 1.asset using Guid(d5bb3d6aa09689d43b569eb48bb1db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0800d47995e5b83ab0965c40ac8722') in 0.019549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_345 1.asset
+  artifactKey: Guid(453e3b7fb8d8f2a459b082dca0bb1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_345 1.asset using Guid(453e3b7fb8d8f2a459b082dca0bb1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890f1cbedb4345a8dc2d3fbe93879356') in 0.018941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_456 1.asset
+  artifactKey: Guid(84b4e8519fbd2dd4ca8ef320d4f8637a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_456 1.asset using Guid(84b4e8519fbd2dd4ca8ef320d4f8637a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c3ab6bc7f4147126c2a8c3b3194383') in 0.018078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_507 1.asset
+  artifactKey: Guid(3559cbb426abb5c4bac652f888e663a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_507 1.asset using Guid(3559cbb426abb5c4bac652f888e663a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3eb715b93ab00123fa53f341315986b') in 0.017949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_463 1.asset
+  artifactKey: Guid(fa81a88d45e3ec6448393aaa96929b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_463 1.asset using Guid(fa81a88d45e3ec6448393aaa96929b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7722d52b7cf5af01957495ca74b9567') in 0.016970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Tiles/cloud_tileset_380 1.asset
+  artifactKey: Guid(7ef7026ee5c34954f85e6d37ed753318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_380 1.asset using Guid(7ef7026ee5c34954f85e6d37ed753318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc180d1550dd6f9be2e6279a981f09d5') in 0.016104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_312 1.asset
+  artifactKey: Guid(0bf928f1ef4d0464e8c01d29a99a30d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_312 1.asset using Guid(0bf928f1ef4d0464e8c01d29a99a30d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299f06efb5baee852821f0561d0ff228') in 0.016106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_195 1.asset
+  artifactKey: Guid(af7b2306bb91ffa47ba840b3b185611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_195 1.asset using Guid(af7b2306bb91ffa47ba840b3b185611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96a86a5c3b58bdcf471c909024bbb41') in 0.016670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_476 1.asset
+  artifactKey: Guid(b53e9645d289e0645adcff5306ee99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_476 1.asset using Guid(b53e9645d289e0645adcff5306ee99c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27862a05f97057b42fc9e338c0b19ce0') in 0.015996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/cloud_tileset_292 1.asset
+  artifactKey: Guid(dcd9a2dd573263a4daa633b5635e1368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_292 1.asset using Guid(dcd9a2dd573263a4daa633b5635e1368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8621b9ddc7c8d26338e8e1416ffbdffa') in 0.015852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_177 1.asset
+  artifactKey: Guid(041406b60999c3e40a799a5bb74c0072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_177 1.asset using Guid(041406b60999c3e40a799a5bb74c0072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd509a1663577f1979ad5c1f9dfa1e6') in 0.016525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_296 1.asset
+  artifactKey: Guid(7088ccc7074aafc498b3ce05170e27c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_296 1.asset using Guid(7088ccc7074aafc498b3ce05170e27c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924c0f15a9eb5fff5963ff08b7d7b299') in 0.018145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_240 1.asset
+  artifactKey: Guid(14bc0b043fa80ee4d9e7eb3080415695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_240 1.asset using Guid(14bc0b043fa80ee4d9e7eb3080415695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f81551b24131f22dd3ff7ab613d57f') in 0.019115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_182 1.asset
+  artifactKey: Guid(fdd769f0e567d5f419bc190406ae49a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_182 1.asset using Guid(fdd769f0e567d5f419bc190406ae49a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3d46e5c0e4ffcb5dc6d9b158a51ed0') in 0.018851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/cloud_tileset_475 1.asset
+  artifactKey: Guid(3a8fabd39d97aaa4791f0b4169ca3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_475 1.asset using Guid(3a8fabd39d97aaa4791f0b4169ca3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfd35615fd6bbe3bd6ea8b7a5c5b3d0') in 0.015830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/cloud_tileset_497 1.asset
+  artifactKey: Guid(fd187b080468e5441bffbdbae144139e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_497 1.asset using Guid(fd187b080468e5441bffbdbae144139e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff70bde752c69eb630a1a64e0427d40') in 0.019364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Tiles/cloud_tileset_236 1.asset
+  artifactKey: Guid(63a74c550efaeb040851bca3ef858be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_236 1.asset using Guid(63a74c550efaeb040851bca3ef858be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4424f2f632c4b632ee2c096b997bd2c9') in 0.020339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tiles/cloud_tileset_427 1.asset
+  artifactKey: Guid(8dbd0a6ae8e8ae64ca5dc5d7af125fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_427 1.asset using Guid(8dbd0a6ae8e8ae64ca5dc5d7af125fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3614e869c49e79c66fff347809a0277') in 0.018672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/cloud_tileset_459 1.asset
+  artifactKey: Guid(07abb9051c2daef49887d671fb5b83c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_459 1.asset using Guid(07abb9051c2daef49887d671fb5b83c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4edbc26954c5a6983bdf93ded99c4c') in 0.021501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_487 1.asset
+  artifactKey: Guid(d179dc045b37b8e4b8378ed7e1269bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_487 1.asset using Guid(d179dc045b37b8e4b8378ed7e1269bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0017796e650a81223c5cb0149b3615a2') in 0.019943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_305 1.asset
+  artifactKey: Guid(a1ddfc93c63302f4680f4889777dd4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_305 1.asset using Guid(a1ddfc93c63302f4680f4889777dd4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9811555061b06f2b8c3a62d88e4af2') in 0.018066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_287 1.asset
+  artifactKey: Guid(30065917f905f7e408e4ffbc04d2fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_287 1.asset using Guid(30065917f905f7e408e4ffbc04d2fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884b667647aea66a5fb09f71781f5a00') in 0.015515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/cloud_tileset_130 1.asset
+  artifactKey: Guid(62a7b79e28191c14ea2a7f98c7a75a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_130 1.asset using Guid(62a7b79e28191c14ea2a7f98c7a75a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813927e2e12667630a9ce105de7bb1fa') in 0.016955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/cloud_tileset_163 1.asset
+  artifactKey: Guid(3100595dce504e54dbe9f8869d746d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_163 1.asset using Guid(3100595dce504e54dbe9f8869d746d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8bc9191d0d2cd0866d7107f3488f75') in 0.016065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiles/cloud_tileset_408 1.asset
+  artifactKey: Guid(c2c94af404c4a1c479416188a083332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_408 1.asset using Guid(c2c94af404c4a1c479416188a083332a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653bdee4ec2ff6ddc799a0f7800ed785') in 0.016166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_237 1.asset
+  artifactKey: Guid(6dbdd628072ba5c43a77b9e19a2b3fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_237 1.asset using Guid(6dbdd628072ba5c43a77b9e19a2b3fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5b3aca1cc86033e45faf9dcf7b287d') in 0.017666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_162 1.asset
+  artifactKey: Guid(31ca7314aff0c8448b0020231ab0d4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_162 1.asset using Guid(31ca7314aff0c8448b0020231ab0d4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352620c6ecccb1165abf4a221cb94df3') in 0.017358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_490 1.asset
+  artifactKey: Guid(8a82b09a37f52e14ea909ff73c11dc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_490 1.asset using Guid(8a82b09a37f52e14ea909ff73c11dc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4275a2346053acf9c8164f20ba06f1') in 0.018431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/cloud_tileset_358 1.asset
+  artifactKey: Guid(8f1d03cee4a2291478216e7a7ef211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_358 1.asset using Guid(8f1d03cee4a2291478216e7a7ef211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a98c48a674af6443769ef61fd287121') in 0.019077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/cloud_tileset_355 1.asset
+  artifactKey: Guid(6278e8ebb36284d46afd4edca6a5b454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_355 1.asset using Guid(6278e8ebb36284d46afd4edca6a5b454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca9a3d3786e774340b2ebae22631f44') in 0.017173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_278 1.asset
+  artifactKey: Guid(2d8c9ee435a2cb345b29529f13c9e7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_278 1.asset using Guid(2d8c9ee435a2cb345b29529f13c9e7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e00da08e4ba979265ee8ab2647d22e') in 0.016414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_486 1.asset
+  artifactKey: Guid(9d31613c7dfc88745848921e374c923a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_486 1.asset using Guid(9d31613c7dfc88745848921e374c923a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b447843cee0212c85592ea9e34c34c') in 0.016367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/cloud_tileset_169 1.asset
+  artifactKey: Guid(eb02f8cbe6779b046ac8fa7accecae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_169 1.asset using Guid(eb02f8cbe6779b046ac8fa7accecae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9eb0c23d97a49225b31200c853aa17') in 0.016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/cloud_tileset_288 1.asset
+  artifactKey: Guid(cc7804bf3cb06ff4fa0e9f915033a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_288 1.asset using Guid(cc7804bf3cb06ff4fa0e9f915033a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bb9bde25e1194dd8df3c8cfb0d709e') in 0.016387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_425 1.asset
+  artifactKey: Guid(2a4aba57c9545a34884c9db6cba9fd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_425 1.asset using Guid(2a4aba57c9545a34884c9db6cba9fd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3913db35f886cbddb54201daf654027e') in 0.017166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/cloud_tileset_512 1.asset
+  artifactKey: Guid(b99b74c44eb133549a3df12424e05eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_512 1.asset using Guid(b99b74c44eb133549a3df12424e05eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33471736921d2492e06ccf8e0b85b423') in 0.018067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_326 1.asset
+  artifactKey: Guid(92235817a7916dc45b3882f96c72154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_326 1.asset using Guid(92235817a7916dc45b3882f96c72154f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ca745dc7c5105df2854cef702e0378') in 0.016691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/cloud_tileset_170 1.asset
+  artifactKey: Guid(000aa5db2fb0f1644ab2be1b8bd65a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_170 1.asset using Guid(000aa5db2fb0f1644ab2be1b8bd65a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715980a2eca7b1a2f5243b92171f204f') in 0.015324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_203 1.asset
+  artifactKey: Guid(8c1f72ad710917845abd5757b707d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_203 1.asset using Guid(8c1f72ad710917845abd5757b707d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ba278195c305130d5f6dfee8ea532b') in 0.017431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_246 1.asset
+  artifactKey: Guid(09d0bd8287d39ae4196df6fac0ee3b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_246 1.asset using Guid(09d0bd8287d39ae4196df6fac0ee3b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0409693b745cfc2189edb79833d32bd6') in 0.020608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/cloud_tileset_114 1.asset
+  artifactKey: Guid(bfd904d98949c694c8b430e281f4e594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_114 1.asset using Guid(bfd904d98949c694c8b430e281f4e594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b39f5e41b74f973f09845d5f19d73a') in 0.016249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/cloud_tileset_409 1.asset
+  artifactKey: Guid(dcbb9bbda0c8dab43b0f4a5891d721db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_409 1.asset using Guid(dcbb9bbda0c8dab43b0f4a5891d721db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49bf9050d7452a997aa1a88b4c060ff') in 0.014773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/cloud_tileset_410 1.asset
+  artifactKey: Guid(0aed8bc42521e7e4bbbbc86f99fd67f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_410 1.asset using Guid(0aed8bc42521e7e4bbbbc86f99fd67f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8a10845114552603ad09ef5e0f0ddb') in 0.018304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/cloud_tileset_354 1.asset
+  artifactKey: Guid(fba80cb3e72037a4d9c71fc44f2830b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_354 1.asset using Guid(fba80cb3e72037a4d9c71fc44f2830b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff324f29f8b9d703952ab8ee9032867') in 0.017818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Water.prefab
+  artifactKey: Guid(2b7dd8e6888e3ce4f93dc1c87babaeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Water.prefab using Guid(2b7dd8e6888e3ce4f93dc1c87babaeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e584bde4ffb89d7dce0a1c81c0c61277') in 0.435977 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.591 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2593ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2082ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (532ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (835ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.7 KB). Loaded Objects now: 4537.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 8.241000 ms (FindLiveObjects: 0.447400 ms CreateObjectMapping: 0.408600 ms MarkObjects: 7.086700 ms  DeleteObjects: 0.296600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 331.050563 seconds.
+  path: Assets/Tiles/cloud_tileset_448 1.asset
+  artifactKey: Guid(a9d6f1194cb8cba44a967fea12d601ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_448 1.asset using Guid(a9d6f1194cb8cba44a967fea12d601ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57ef8616b753c035746342a08daee8a') in 0.080354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/cloud_tileset_454 1.asset
+  artifactKey: Guid(8bfdfe62ab2e8b84abb75fd41ec9691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_454 1.asset using Guid(8bfdfe62ab2e8b84abb75fd41ec9691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf47ad772cc560ba53cfa4b6bd256a') in 0.019183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/cloud_tileset_453 1.asset
+  artifactKey: Guid(5806035b4e4fbaf4395387b6614c03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_453 1.asset using Guid(5806035b4e4fbaf4395387b6614c03dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ae406f6f422ffbd5b490152cad8a94') in 0.020517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/cloud_tileset_451 1.asset
+  artifactKey: Guid(b3324b8960271eb4db7b7f8b4d3c06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_451 1.asset using Guid(b3324b8960271eb4db7b7f8b4d3c06ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c38103222cf6c95f99bb83e92bb833') in 0.017725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.387524 seconds.
+  path: Assets/Tiles/cloud_tileset_368 1.asset
+  artifactKey: Guid(f952b28e4d01f334291813064e873d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_368 1.asset using Guid(f952b28e4d01f334291813064e873d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e75673207a03709aa4e7dd02398bb5') in 0.022246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/cloud_tileset_370 1.asset
+  artifactKey: Guid(b4284b183e8379944be9becd79a887c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_370 1.asset using Guid(b4284b183e8379944be9becd79a887c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e725dbf6a68c55a9768706ed25ca22c') in 0.019501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/cloud_tileset_371 1.asset
+  artifactKey: Guid(c42c713e36ae8d449ad3b430240c05ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_371 1.asset using Guid(c42c713e36ae8d449ad3b430240c05ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2b0cd8f55facde7a7ce8b523845aad') in 0.020838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/cloud_tileset_374 1.asset
+  artifactKey: Guid(7089591fef0c11a42917573531a1a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_374 1.asset using Guid(7089591fef0c11a42917573531a1a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30e3999a7eb6c44a94e4ee1d092072') in 0.017599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074490 seconds.
+  path: Assets/Tiles/cloud_tileset_360 1.asset
+  artifactKey: Guid(48d1dd04d78e9f04c814a9f6d729e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_360 1.asset using Guid(48d1dd04d78e9f04c814a9f6d729e549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2c917cb04e252bcb4d1f75bc81075c') in 0.020569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/cloud_tileset_362 1.asset
+  artifactKey: Guid(b8185acf87337334e90faaef4e8b35c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_362 1.asset using Guid(b8185acf87337334e90faaef4e8b35c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8430c812d423fb3d50623c3ef84b28d4') in 0.023718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/cloud_tileset_363 1.asset
+  artifactKey: Guid(b325eb9bdc1f2f44dabf18bde96679e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_363 1.asset using Guid(b325eb9bdc1f2f44dabf18bde96679e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa4d2e1d4b1a7339d98c7f4789771ca') in 0.018309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/cloud_tileset_361 1.asset
+  artifactKey: Guid(7db0cb81364fad44f8ac9d2f5838d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/cloud_tileset_361 1.asset using Guid(7db0cb81364fad44f8ac9d2f5838d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b90e50b036b7f2cb7828818e42c4e9') in 0.020172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.806529 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel Sky/demo01_PixelSky_layer02.png
+  artifactKey: Guid(ee6100725e0a79542adba70d506e1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 01 Parallax Pixel Sky/demo01_PixelSky_layer02.png using Guid(ee6100725e0a79542adba70d506e1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21191512205a4ab10a42ec66e7394428') in 0.074794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.935581 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer02.png
+  artifactKey: Guid(133ff4e02187f97458c0d10ac3ab15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer02.png using Guid(133ff4e02187f97458c0d10ac3ab15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b88f357bf122c7f797a98fec6f92a7') in 0.032050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer03.png
+  artifactKey: Guid(6fc934c28f4a61548a11c8c0767f4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Parallax Pixel Skies 240x135px/Demo 02 Parallax Pixel Sky/demo02_PixelSky_layer03.png using Guid(6fc934c28f4a61548a11c8c0767f4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcc8cd01ae383cd3ab6172d72181587') in 0.029079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.937232 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo02_PixelSky.png
+  artifactKey: Guid(0675ce4596ea3e047879ee54f19b94a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo02_PixelSky.png using Guid(0675ce4596ea3e047879ee54f19b94a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb16116acaceddd3d151a136185bc1e') in 0.031698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo04_PixelSky.png
+  artifactKey: Guid(d5195c18a9a87014da4daca597d44a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo04_PixelSky.png using Guid(d5195c18a9a87014da4daca597d44a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e6195589823eb6a06b4c21dc0521f0') in 0.027648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png
+  artifactKey: Guid(f6cc67ab8870dda4dbc253117214730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 240x135px/demo06_PixelSky.png using Guid(f6cc67ab8870dda4dbc253117214730e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355640c10f09291e69f9868a56d9cbe7') in 0.031396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.208382 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo02_PixelSky_1920x1080.png
+  artifactKey: Guid(23e37d0059af18c4f81beec3bf9f8d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo02_PixelSky_1920x1080.png using Guid(23e37d0059af18c4f81beec3bf9f8d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909363bf38dc1468c891e466b4dec0b6') in 0.218491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo03_PixelSky_1920x1080.png
+  artifactKey: Guid(cbef2fb8d44aed94297177261be84de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo03_PixelSky_1920x1080.png using Guid(cbef2fb8d44aed94297177261be84de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c037acb53219278198be78c5e2204e5b') in 0.203470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo04_PixelSky_1920x1080.png
+  artifactKey: Guid(1efc14524702f8c4694fc4697517592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Skies DEMO/Pixel Skies 1920x1080px (Full HD)/demo04_PixelSky_1920x1080.png using Guid(1efc14524702f8c4694fc4697517592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a27cb20595fcffbdfa45146a1dbae9') in 0.167511 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016610 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.515 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2516ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2032ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (498ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1127ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (820ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.8 KB). Loaded Objects now: 4547.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 6.637900 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.253800 ms MarkObjects: 5.848500 ms  DeleteObjects: 0.198000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020352 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2635ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2135ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (500ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1221ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (844ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (196.8 KB). Loaded Objects now: 4550.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 5.551900 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.259400 ms MarkObjects: 4.737100 ms  DeleteObjects: 0.209200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014320 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2435ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1995ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (870ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.8 KB). Loaded Objects now: 4553.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 4.998400 ms (FindLiveObjects: 0.370500 ms CreateObjectMapping: 0.247600 ms MarkObjects: 4.164100 ms  DeleteObjects: 0.215000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2394ms)
+		BeginReloadAssembly (291ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1867ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (1049ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (738ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.8 KB). Loaded Objects now: 4556.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 5.522500 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.246300 ms MarkObjects: 4.734900 ms  DeleteObjects: 0.201100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.066303 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\Video Game Art Design\Scripting 3\RPG-RL-New\RPG-RLN\RPG-RL-New\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.284 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2285ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1741ms)
+			LoadAssemblies (221ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (466ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (940ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (671ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.9 KB). Loaded Objects now: 4560.
+Memory consumption went from 156.8 MB to 156.6 MB.
+Total: 5.337600 ms (FindLiveObjects: 0.358500 ms CreateObjectMapping: 0.236700 ms MarkObjects: 4.549100 ms  DeleteObjects: 0.191800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
