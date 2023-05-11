@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Objects
+  - Interactable
   - 
   - 
   - 
@@ -44,6 +44,15 @@ TagManager:
   - name: Sky
     uniqueID: 864902209
     locked: 0
-  - name: Map
+  - name: Background
     uniqueID: 2331182211
+    locked: 0
+  - name: Foreground
+    uniqueID: 4138007583
+    locked: 0
+  - name: Objects
+    uniqueID: 2338936455
+    locked: 0
+  - name: Player
+    uniqueID: 3526814933
     locked: 0
