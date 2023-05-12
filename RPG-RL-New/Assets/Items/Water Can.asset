@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf6b7e234624fc49a56ab880b7c1bd7, type: 3}
   m_Name: Water Can
   m_EditorClassIdentifier: 
-  id: flower_remembrance
-  displayName: Flower Pot
-  icon: {fileID: -1262285588, guid: 97f7bf16e253d7949bfd775175ad22d2, type: 3}
+  id: water_can
+  displayName: Watering Can
+  icon: {fileID: 21300000, guid: 665e1bbafa4972e4ea3881383337bbe0, type: 3}
   prefab: {fileID: 0}

@@ -15,4 +15,4 @@ MonoBehaviour:
   id: flower_remembrance
   displayName: Flower Pot
   icon: {fileID: -1262285588, guid: 97f7bf16e253d7949bfd775175ad22d2, type: 3}
-  prefab: {fileID: 0}
+  prefab: {fileID: 1070820500229507120, guid: 4765da367248d0346a117366189ebd2f, type: 3}

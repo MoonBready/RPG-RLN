@@ -6,6 +6,6 @@ public class Enemy : MonoBehaviour, Interactable
 {
     public void Interact()
     {
-        Debug.Log("Battle");
+        Debug.Log("Play");
     }
 }
