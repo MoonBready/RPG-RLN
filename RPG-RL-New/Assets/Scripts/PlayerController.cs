@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public void HandleUpdate()
     {
         if (!isMoving)
         {
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
         if(collider != null)
         {
-            Debug.Log("There is an NPC here!");
+            collider.GetComponent<Interactable>()?.Interact();
         }
     }
 
